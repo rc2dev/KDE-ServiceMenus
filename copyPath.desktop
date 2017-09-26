@@ -1,0 +1,16 @@
+# Dependencies: xsel
+#
+# Author: Rafael Cavalcanti <rccavalcanti at gmail dot com>
+#
+
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory
+MimeType=application/octet-stream;
+Actions=copyPath;
+X-KDE-Priority=TopLevel
+
+[Desktop Action copyPath]
+Name=Copy path
+Name[pt_BR]=Copiar caminho
+Exec=echo %U | xsel -b -i
