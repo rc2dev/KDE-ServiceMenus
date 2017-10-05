@@ -13,18 +13,17 @@ X-KDE-Submenu=Convert video
 X-KDE-Submenu[pt_BR]=Converter vídeo
 
 [Desktop Action toMp4]
-Name=To MP4 (ffmpeg)
-Name[pt_BR]=Para MP4 (ffmpeg)
+Name=MP4
 Exec=ffmpeg -i "%u" "%u.mp4"
 
 #[Desktop Action toAndroid480]
-#Name=To Android 480p (Handbrake profile)
-#Name[pt_BR]=Para Android 480p (perfil do Handbrake)
+#Name=Android 480p (Handbrake profile)
+#Name[pt_BR]=Android 480p (perfil do Handbrake)
 ##Icon=convert
 #Exec=HandBrakeCLI --preset "Android 480p30" -i "%u" -o "%u_Android480p.mp4"
 
 [Desktop Action toSmall]
-Name=To small file for mobile
-Name[pt_BR]=Para arquivo pequeno para celular
-Exec=ffmpeg -i "%u" -vcodec libx264 -s 720x480 -crf 24 -acodec aac -b:a 64k "%u_small.mp4"
+Name=Small file for mobile
+Name[pt_BR]=Arquivo pequeno para celular
+Exec=ffmpeg -i "%u" -vcodec libx264 -vf scale=w=720:h=480:force_original_aspect_ratio=decrease -crf 24 -acodec aac -b:a 64k "%u_small.mp4"
 
