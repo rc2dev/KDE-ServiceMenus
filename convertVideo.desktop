@@ -1,4 +1,4 @@
-# Dependencies: ffmpeg, HandBrakeCLI
+# Dependencies: ffmpeg
 #
 # Author: Rafael Cavalcanti <rccavalcanti at gmail dot com>
 #
@@ -15,12 +15,6 @@ X-KDE-Submenu[pt_BR]=Converter vídeo
 [Desktop Action toMp4]
 Name=MP4
 Exec=ffmpeg -i "%u" "%u.mp4"
-
-#[Desktop Action toAndroid480]
-#Name=Android 480p (Handbrake profile)
-#Name[pt_BR]=Android 480p (perfil do Handbrake)
-##Icon=convert
-#Exec=HandBrakeCLI --preset "Android 480p30" -i "%u" -o "%u_Android480p.mp4"
 
 [Desktop Action toSmall]
 Name=Small file for mobile
