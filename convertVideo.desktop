@@ -7,7 +7,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*;
-Actions=toMp4;toSmall;
+Actions=toMp4;toSmall480;toSmallSame;
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Convert video
 X-KDE-Submenu[pt_BR]=Converter vídeo
@@ -16,8 +16,13 @@ X-KDE-Submenu[pt_BR]=Converter vídeo
 Name=MP4
 Exec=ffmpeg -i "%u" "%u.mp4"
 
-[Desktop Action toSmall]
-Name=Small file for mobile
-Name[pt_BR]=Arquivo pequeno para celular
-Exec=ffmpeg -i "%u" -vcodec libx264 -vf scale=w=720:h=480:force_original_aspect_ratio=decrease -crf 24 -acodec aac -b:a 64k "%u_small.mp4"
+[Desktop Action toSmall480]
+Name=Small file for mobile (480p)
+Name[pt_BR]=Arquivo pequeno para celular (480p)
+Exec=ffmpeg -i "%u" -vcodec libx264 -vf scale=w=720:h=480:force_original_aspect_ratio=decrease -crf 24 -acodec aac -b:a 64k "%u_small480.mp4"
+
+[Desktop Action toSmallSame]
+Name=Small file for mobile (same resolution)
+Name[pt_BR]=Arquivo pequeno para celular (mesma resolução)
+Exec=ffmpeg -i "%u" -vcodec libx264 -crf 24 -acodec aac -b:a 64k "%u_small.mp4"
 
