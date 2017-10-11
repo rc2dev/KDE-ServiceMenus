@@ -13,17 +13,18 @@ X-KDE-Submenu=Convert video
 X-KDE-Submenu[pt_BR]=Converter vídeo
 
 [Desktop Action toMp4]
-Name=MP4
+Name=To MP4
+Name[pt_BR]=Para MP4
 Exec=convert-video --to-mp4 %U || kdialog --error "Error converting %U."
 
 [Desktop Action toSmall480]
-Name=Small file for mobile (480p)
-Name[pt_BR]=Arquivo pequeno para celular (480p)
+Name=To small file (480p)
+Name[pt_BR]=Para arquivo pequeno (480p)
 Exec=convert-video --to-small-480 %U || kdialog --error "Error converting %U."
 
 [Desktop Action toSmallSame]
-Name=Small file for mobile (same resolution)
-Name[pt_BR]=Arquivo pequeno para celular (mesma resolução)
+Name=To small file (same resolution)
+Name[pt_BR]=Para arquivo pequeno (mesma resolução)
 Exec=convert-video --to-small-same %U || kdialog --error "Error converting %U."
 
 [Desktop Action removeAudio]
