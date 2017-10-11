@@ -5,8 +5,8 @@
 
 [Desktop Entry]
 Type=Service
-ServiceTypes=KonqPopupMenu/Plugin,inode/directory
-MimeType=application/octet-stream;
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/octet-stream;inode/directory
 Actions=copyPath;
 X-KDE-Priority=TopLevel
 
