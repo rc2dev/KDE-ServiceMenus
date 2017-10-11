@@ -8,9 +8,8 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=inode/directory;
 Actions=dirToMp4;
-X-KDE-Priority=TopLevel
 
 [Desktop Action dirToMp4]
-Name=Replace all WEBM with MP4
-Name[pt_BR]=Trocar WEBM para MP4
+Name=Replace all WebM with MP4
+Name[pt_BR]=Trocar todos WebM por MP4
 Exec=convert-video --dir-to-mp4 %U || kdialog --error "Error converting videos in %U."
