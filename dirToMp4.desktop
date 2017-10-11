@@ -1,0 +1,16 @@
+# Dependencies: my convert-video script and kdialog
+#
+# Author: Rafael Cavalcanti <rccavalcanti at gmail dot com>
+#
+
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=dirToMp4;
+X-KDE-Priority=TopLevel
+
+[Desktop Action dirToMp4]
+Name=Replace all WEBM with MP4
+Name[pt_BR]=Trocar WEBM para MP4
+Exec=convert-video --dir-to-mp4 %U || kdialog --error "Error converting videos in %U."
