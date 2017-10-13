@@ -7,7 +7,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*;
-Actions=toMp4;toSmall480;toSmallSame;removeAudio;concat;
+Actions=toMp4;toSmall;removeAudio;concat;
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Convert video
 X-KDE-Submenu[pt_BR]=Converter vídeo
@@ -17,15 +17,10 @@ Name=To MP4
 Name[pt_BR]=Para MP4
 Exec=convert-video --to-mp4 %U || kdialog --error "Error converting %U."
 
-[Desktop Action toSmall480]
-Name=To small file (480p)
-Name[pt_BR]=Para arquivo pequeno (480p)
-Exec=convert-video --to-small-480 %U || kdialog --error "Error converting %U."
-
-[Desktop Action toSmallSame]
-Name=To small file (same resolution)
-Name[pt_BR]=Para arquivo pequeno (mesma resolução)
-Exec=convert-video --to-small-same %U || kdialog --error "Error converting %U."
+[Desktop Action toSmall]
+Name=To small file
+Name[pt_BR]=Para arquivo pequeno
+Exec=convert-video --to-small %U || kdialog --error "Error converting %U."
 
 [Desktop Action removeAudio]
 Name=Remove audio
