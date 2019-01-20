@@ -12,4 +12,5 @@ Actions=dirToMp4;
 [Desktop Action dirToMp4]
 Name=Replace all WebM with MP4
 Name[pt_BR]=Trocar todos WebM por MP4
+Name[ru_RU]=Заменить все WebM на MP4
 Exec=convert-video --dir-to-mp4 %U || kdialog --error "Error converting videos in %U."
