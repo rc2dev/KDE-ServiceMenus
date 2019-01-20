@@ -15,24 +15,29 @@ X-KDE-Submenu[pt_BR]=Converter vídeo
 [Desktop Action toMp4]
 Name=To MP4
 Name[pt_BR]=Para MP4
+Name[ru_RU]=В MP4
 Exec=convert-video --to-mp4 %U || kdialog --error "Error converting %U."
 
 [Desktop Action toSmall]
 Name=To small file
 Name[pt_BR]=Para arquivo pequeno
+Name[ru_RU]=В небольшой файл
 Exec=convert-video --to-small %U || kdialog --error "Error converting %U."
 
 [Desktop Action toSmallGa]
 Name=To small file (good audio)
 Name[pt_BR]=Para arquivo pequeno (bom áudio)
+Name[ru_RU]=В небольшой файл (хороший звук)
 Exec=convert-video --to-small-ga %U || kdialog --error "Error converting %U."
 
 [Desktop Action removeAudio]
 Name=Remove audio
 Name[pt_BR]=Remover áudio
+Name[ru_RU]=Удалить звук
 Exec=convert-video --mute %U || kdialog --error "Error converting %U."
 
 [Desktop Action concat]
 Name=Concatenate
 Name[pt_BR]=Concatenar
+Name[ru_RU]=Объединить
 Exec=convert-video --concat %U || kdialog --error "Error converting %U."

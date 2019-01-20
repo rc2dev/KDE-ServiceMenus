@@ -13,4 +13,5 @@ X-KDE-Priority=TopLevel
 [Desktop Action addToVlc]
 Name=Add to VLC playlist
 Name[pt_BR]=Adicionar à playlist do VLC
+Name[ru_RU]=Добавить в плейлист VLC
 Exec=vlc --one-instance --playlist-enqueue %U

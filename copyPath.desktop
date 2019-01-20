@@ -13,4 +13,5 @@ X-KDE-Priority=TopLevel
 [Desktop Action copyPath]
 Name=Copy path
 Name[pt_BR]=Copiar caminho
+Name[ru_RU]=Копировать путь
 Exec=printf %U | xsel -b -i
