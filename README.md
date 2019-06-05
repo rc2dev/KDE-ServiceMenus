@@ -12,7 +12,8 @@ cp *.desktop ~/.local/share/kservices5/ServiceMenus/
 
 ## Translators
 
-* ru-ru: Anton Kuchekeev "KVAnton-WEB"
+* hr_HR: Vladimir Mikulic "VladimirMikulic"
+* ru_RU: Anton Kuchekeev "KVAnton-WEB"
 
 ## License
 
