@@ -17,6 +17,7 @@ Also available on KDE Store:
 
 ## Translators
 
+* de_DE: "Termuellinator"
 * hr_HR: Vladimir Mikulic "VladimirMikulic"
 * ru_RU: Anton Kuchekeev "KVAnton-WEB"
 
