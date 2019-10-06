@@ -15,4 +15,5 @@ Name=Copy path
 Name[pt_BR]=Copiar caminho
 Name[ru_RU]=Копировать путь
 Name[hr_HR]=Kopiraj put
+Name[de_DE]=Pfad kopieren
 Exec=printf %U | xsel -b -i
