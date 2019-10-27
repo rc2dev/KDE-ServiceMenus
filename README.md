@@ -22,6 +22,7 @@ Check the dependencies for each service in their header or at the above links.
 
 * de_DE: "Termuellinator"
 * hr_HR: Vladimir Mikulic "VladimirMikulic"
+* nl_NL: Heimen Stoffels "Vistaus"
 * ru_RU: Anton Kuchekeev "KVAnton-WEB"
 
 
