@@ -13,12 +13,14 @@ Actions=toMp4;toSmall;toSmallGa;removeAudio;concat;
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Convert video
 X-KDE-Submenu[pt_BR]=Converter vídeo
+X-KDE-Submenu[nl_NL]=Video converteren
 
 [Desktop Action toMp4]
 Name=To MP4
 Name[pt_BR]=Para MP4
 Name[ru_RU]=В MP4
 Name[hr_HR]=U MP4
+Name[nl_NL]=Naar MP4
 Exec=convert-video --to-mp4 %U || kdialog --error "Error converting %U."
 
 [Desktop Action toSmall]
@@ -26,6 +28,7 @@ Name=To small file
 Name[pt_BR]=Para arquivo pequeno
 Name[ru_RU]=В небольшой файл
 Name[hr_HR]=U malu datoteku
+Name[nl_NL]=Naar klein bestand
 Exec=convert-video --to-small %U || kdialog --error "Error converting %U."
 
 [Desktop Action toSmallGa]
@@ -33,6 +36,7 @@ Name=To small file (good audio)
 Name[pt_BR]=Para arquivo pequeno (bom áudio)
 Name[ru_RU]=В небольшой файл (хороший звук)
 Name[hr_HR]=U malu datoteku (dobar zvuk)
+Name[nl_NL]=Naar klein bestand (goede audiokwaliteit)
 Exec=convert-video --to-small-ga %U || kdialog --error "Error converting %U."
 
 [Desktop Action removeAudio]
@@ -40,6 +44,7 @@ Name=Remove audio
 Name[pt_BR]=Remover áudio
 Name[ru_RU]=Удалить звук
 Name[hr_HR]=Ukloni zvuk
+Name[nl_NL]=Audiospoor verwijderen
 Exec=convert-video --mute %U || kdialog --error "Error converting %U."
 
 [Desktop Action concat]
@@ -47,4 +52,5 @@ Name=Concatenate
 Name[pt_BR]=Concatenar
 Name[ru_RU]=Объединить
 Name[hr_HR]=Poveži
+Name[nl_NL]=Combineren
 Exec=convert-video --concat %U || kdialog --error "Error converting %U."
