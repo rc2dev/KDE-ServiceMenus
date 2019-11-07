@@ -19,3 +19,4 @@ Name[hr_HR]=Kopiraj put
 Name[de_DE]=Pfad kopieren
 Name[nl_NL]=Pad kopiëren
 Exec=printf %U | xsel -b -i
+Icon=edit-copy
