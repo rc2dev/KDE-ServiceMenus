@@ -9,7 +9,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*;
-Actions=toMp4;toSmall;toSmallGa;removeAudio;concat;
+Actions=toMp4;to480p;to360p;removeAudio;concat;
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Convert video
 X-KDE-Submenu[pt_BR]=Converter vídeo
@@ -25,22 +25,16 @@ Name[nl_NL]=Naar MP4
 Exec=convert-video --to-mp4 %U || kdialog --error "Error converting %U."
 Icon=gtk-convert
 
-[Desktop Action toSmall]
-Name=To small file
-Name[pt_BR]=Para arquivo pequeno
-Name[ru_RU]=В небольшой файл
-Name[hr_HR]=U malu datoteku
-Name[nl_NL]=Naar klein bestand
-Exec=convert-video --to-small %U || kdialog --error "Error converting %U."
+[Desktop Action to480p]
+Name=To 480p
+Name[pt_BR]=Para 480p
+Exec=convert-video --to-480p %U || kdialog --error "Error converting %U."
 Icon=gtk-convert
 
-[Desktop Action toSmallGa]
-Name=To small file (good audio)
-Name[pt_BR]=Para arquivo pequeno (bom áudio)
-Name[ru_RU]=В небольшой файл (хороший звук)
-Name[hr_HR]=U malu datoteku (dobar zvuk)
-Name[nl_NL]=Naar klein bestand (goede audiokwaliteit)
-Exec=convert-video --to-small-ga %U || kdialog --error "Error converting %U."
+[Desktop Action to360p]
+Name=To 360p
+Name[pt_BR]=Para 360p
+Exec=convert-video --to-360p %U || kdialog --error "Error converting %U."
 Icon=gtk-convert
 
 [Desktop Action removeAudio]
