@@ -1,0 +1,18 @@
+# Dependencies:
+# - celluloid
+#
+# Copyright 2019 Rafael Cavalcanti <rccavalcanti@gmail.com>
+#
+
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=audio/*;video/*;
+Actions=addToCelluloid;
+X-KDE-Priority=TopLevel
+
+[Desktop Action addToCelluloid]
+Name=Enqueue on Celluloid
+Name[pt_BR]=Adicionar à fila do Celluloid
+Exec=celluloid --enqueue %U
+Icon=io.github.celluloid_player.Celluloid
