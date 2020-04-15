@@ -12,16 +12,16 @@ MimeType=video/*;
 Actions=toMp4;to480p;to360p;removeAudio;concat;
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Convert video
-X-KDE-Submenu[pt_BR]=Converter vídeo
 X-KDE-Submenu[nl_NL]=Video converteren
+X-KDE-Submenu[pt_BR]=Converter vídeo
 Icon=gtk-convert
 
 [Desktop Action toMp4]
 Name=To MP4
-Name[pt_BR]=Para MP4
-Name[ru_RU]=В MP4
 Name[hr_HR]=U MP4
 Name[nl_NL]=Naar MP4
+Name[pt_BR]=Para MP4
+Name[ru_RU]=В MP4
 Exec=convert-video --to-mp4 %U || kdialog --error "Error converting %U."
 Icon=gtk-convert
 
@@ -39,18 +39,18 @@ Icon=gtk-convert
 
 [Desktop Action removeAudio]
 Name=Remove audio
-Name[pt_BR]=Remover áudio
-Name[ru_RU]=Удалить звук
 Name[hr_HR]=Ukloni zvuk
 Name[nl_NL]=Audiospoor verwijderen
+Name[pt_BR]=Remover áudio
+Name[ru_RU]=Удалить звук
 Exec=convert-video --mute %U || kdialog --error "Error converting %U."
 Icon=gtk-convert
 
 [Desktop Action concat]
 Name=Concatenate
-Name[pt_BR]=Concatenar
-Name[ru_RU]=Объединить
 Name[hr_HR]=Poveži
 Name[nl_NL]=Combineren
+Name[pt_BR]=Concatenar
+Name[ru_RU]=Объединить
 Exec=convert-video --concat %U || kdialog --error "Error converting %U."
 Icon=gtk-convert

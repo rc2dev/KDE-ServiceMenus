@@ -13,10 +13,10 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action copyPath]
 Name=Copy path
+Name[de_DE]=Pfad kopieren
+Name[hr_HR]=Kopiraj put
+Name[nl_NL]=Pad kopiëren
 Name[pt_BR]=Copiar caminho
 Name[ru_RU]=Копировать путь
-Name[hr_HR]=Kopiraj put
-Name[de_DE]=Pfad kopieren
-Name[nl_NL]=Pad kopiëren
 Exec=printf %U | xsel -b -i
 Icon=edit-copy
