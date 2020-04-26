@@ -30,6 +30,6 @@ Check the dependencies for each service in their header or at the above links.
 
 ## License
 
-Released under [GNU GPL v3](LICENSE).
+Licensed under [GPLv3](LICENSE)
 
-Copyright 2017 Rafael Cavalcanti
+Copyright (C) 2017-2020 [Rafael Cavalcanti](https://rafaelc.org/)
