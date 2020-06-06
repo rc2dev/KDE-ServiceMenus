@@ -21,11 +21,11 @@ Check the dependencies for each service in their header or at the above links.
 
 ## Translators
 
-* de_DE: "Termuellinator"
-* fr_FR: "lecoqlibre"
-* hr_HR: Vladimir Mikulic "VladimirMikulic"
-* nl_NL: Heimen Stoffels "Vistaus"
-* ru_RU: Anton Kuchekeev "KVAnton-WEB"
+* de-de: [Termuellinator](https://github.com/Termuellinator)
+* fr-fr: [lecoqlibre](https://github.com/lecoqlibre)
+* hr-hr: [Vladimir Mikulic](https://github.com/VladimirMikulic)
+* nl-nl: [Heimen Stoffels](https://github.com/Vistaus)
+* ru-ru: [Anton Kuchekeev](https://github.com/KVAnton-WEB)
 
 
 ## License
