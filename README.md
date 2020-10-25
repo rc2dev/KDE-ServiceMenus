@@ -11,10 +11,10 @@ cp *.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
 
 Also available at KDE Store:
+
 * [Add to VLC playlist](https://store.kde.org/p/1192990/)
 * [Enqueue on Celluloid](https://store.kde.org/p/1346072/)
 * [Copy path](https://store.kde.org/p/1190998/)
-* [Convert video](https://store.kde.org/p/1332909/)
 
 Check the dependencies for each service in their header or at the above links.
 
