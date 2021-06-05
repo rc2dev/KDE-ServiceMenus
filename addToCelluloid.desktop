@@ -14,6 +14,7 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action addToCelluloid]
 Name=Enqueue on Celluloid
+Name[nl]=Toevoegen aan Celluloid-wachtrij
 Name[pt_BR]=Adicionar à fila do Celluloid
 Exec=celluloid --enqueue %U
 Icon=io.github.celluloid_player.Celluloid
