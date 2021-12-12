@@ -32,4 +32,4 @@ Check the dependencies for each service in their header or at the above links.
 
 Licensed under [GPLv3](LICENSE)
 
-Copyright (C) 2017-2020 [Rafael Cavalcanti](https://rafaelc.org/)
+Copyright (C) 2017-2020 [Rafael Cavalcanti](https://rafaelc.org/dev)
