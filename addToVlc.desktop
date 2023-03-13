@@ -18,5 +18,5 @@ Name[hr_HR]=Dodaj na popis za reproduciranje
 Name[nl]=Toevoegen aan VLC-afspeellijst
 Name[pt_BR]=Adicionar à playlist do VLC
 Name[ru_RU]=Добавить в плейлист VLC
-Exec=vlc --one-instance --playlist-enqueue %U
+Exec=vlc --no-playlist-autostart --one-instance --playlist-enqueue %U
 Icon=vlc-panel
